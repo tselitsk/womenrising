@@ -8,4 +8,5 @@ module Womenrising
   class Application < Rails::Application
   end
 end
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 

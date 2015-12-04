@@ -6,10 +6,14 @@ default: &default
 development:
   <<: *default
   database: womenrising_development
+  username: postgres
+  password: admin
 
 test:
   <<: *default
   database: womenrising_test
+  username: postgres
+  password: admin
 
 production:
   <<: *default

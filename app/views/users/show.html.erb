@@ -9,6 +9,7 @@
   <%end%>
   <div class="context">
     <h4>Name: <%= @user.first_name%> <%= @user.last_name%></h4>
+    <h4>Gender: <%= @user.gender%></h4>
     <h4>Primary Industry: <%= @user.primary_industry%></h4>
     <h4>Stage Of Career: <% case @user.stage_of_career
           when 1%><%= "Intern/Apprentice/Aspiring"%>
